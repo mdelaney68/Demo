@@ -1,1 +1,0 @@
-<p class="text-muted">&copy; Digicon Corporation <cfoutput>#dateformat(now(),"dddd m/d/yy")# #timeformat(now(),"h:m:s tt")#</cfoutput></p>
