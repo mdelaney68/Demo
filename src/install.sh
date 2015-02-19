@@ -15,6 +15,7 @@ then
 	sudo wget -O Demo-master.zip  https://github.com/mdelaney68/Demo/archive/master.zip
 fi
 sudo unzip -o Demo-master.zip  -d ./tmp
+sudo chmod 775 /tmp -R
 sudo cp -r ./tmp/Demo-master/src/railoinstall.txt ./
 sudo cp -r ./tmp/Demo-master/src/uninstall.sh ./
 
@@ -29,7 +30,7 @@ sudo chmod 775 /opt/railo/ -R
 
 echo "Installing Demo-master "
 sudo cp -r ./tmp/Demo-master/src/wwwroot/* /opt/railo/tomcat/webapps/ROOT/
-sudo rm ./tmp -R
+# sudo rm ./tmp -R
 echo "==================="
 echo "  Install Complete "
 echo "Access http://localhost:8888/ to view the application"
