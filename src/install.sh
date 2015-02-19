@@ -6,7 +6,7 @@ sudo apt-get install zip
 sudo apt-get install unzip
 if [ ! -f "railo-4.2.1.008-pl0-linux-x64-installer.run" ]
 then
-	sudo wget -O sudo wget -O railo-4.2.1.008-pl0-linux-x64-installer.run http://officedev.digicon.com/deployment/railo-4.2.1.008-pl0-linux-x64-installer.zip
+	sudo wget -O sudo wget -O railo-4.2.1.008-pl0-linux-x64-installer.run http://www.getrailo.org/railo/remote/download42/4.2.1.008/tomcat/linux/railo-4.2.1.008-pl0-linux-installer.run
 fi
 sudo chmod 775 railo-4.2.1.008-pl0-linux-x64-installer.run
 
