@@ -1,5 +1,4 @@
 #!/bin/sh
-
 echo "Installing tools"
 sudo apt-get install wget zip unzip
 sudo apt-get install zip 

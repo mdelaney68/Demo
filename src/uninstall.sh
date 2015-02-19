@@ -1,3 +1,4 @@
+#!/bin/sh
 sudo rm ./Demo-master.zip
 sudo rm ./railoinstall.txt
 sudo rm ./railo-4.2.1.008-pl0-linux-x64-installer.run
