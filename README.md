@@ -18,5 +18,5 @@ sudo chmod 775 install.sh
 <br>
 sudo ./install.sh
 <br>
-<br>To access the system, use a web browser and access http://your_server_ip_or_dns:8888 or http://localhost:8888. For example if your serve's ip address is 192.168.1.10 then you would go to  http://192.168.1.10:8888 
+<br>To access the system, use a web browser and access http://your_server_ip_or_dns:8888 or http://localhost:8888. For example if your server's ip address is 192.168.1.10 then you would go to  http://192.168.1.10:8888 
 
