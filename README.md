@@ -6,7 +6,8 @@
 2. Ubuntu 14.04.1 - Install has been tested on this version but will may work on other versions of Ubuntu.
  <br>
 3. ssh access to the Ubuntu Server that has root privilages.
-4. Ports 8888 open
+4. Inbound Port 8888 open<br>
+5. The Ubuntu server will need to be able to access the internet to download files for the installation.
 <br>
 
 <br>
