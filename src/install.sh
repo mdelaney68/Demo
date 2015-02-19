@@ -28,7 +28,7 @@ sudo ./railo-4.2.1.008-pl0-linux-x64-installer.run --mode unattended --optionfil
 sudo chmod 775 /opt/railo/ -R
 
 echo "Installing Demo-master "
-sudo cp -r ./tmp/Demo-master/src/wwwroot /opt/railo/tomcat/webapps/ROOT/
+sudo cp -r ./tmp/Demo-master/src/wwwroot/* /opt/railo/tomcat/webapps/ROOT/
 sudo rm ./tmp -R
 echo "==================="
 echo "  Install Complete "
