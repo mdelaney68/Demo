@@ -8,7 +8,6 @@ if [ ! -f "railo-4.2.1.008-pl0-linux-x64-installer.run" ]
 then
 	sudo wget -O railo-4.2.1.008-pl0-linux-x64-installer.run  http://www.getrailo.org/down.cfm?item=/railo/remote/download42/4.2.1.008/tomcat/linux/railo-4.2.1.008-pl0-linux-x64-installer.run&thankyou=true
 fi
-
 sudo chmod 775 railo-4.2.1.008-pl0-linux-x64-installer.run
 
 if [ ! -f "Demo-master.zip" ]
@@ -18,7 +17,7 @@ fi
 sudo unzip -o Demo-master.zip  -d ./tmp
 sudo cp -r ./tmp/Demo-master/src/railoinstall.txt ./
 sudo cp -r ./tmp/Demo-master/src/uninstall.sh ./
-sudo chmod 775 Demo-master.zip
+
 sudo chmod 775 railoinstall.txt
 sudo chmod 775 uninstall.sh
 echo "==================="
@@ -35,4 +34,4 @@ echo "==================="
 echo "  Install Complete "
 echo "Access http://localhost:8888/ to view the application"
 echo "==================="
-
+sudo chmod 775 Demo-master.zip
