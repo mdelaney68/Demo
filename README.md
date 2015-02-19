@@ -7,9 +7,9 @@ Requirments
 To install application ssh into your Ubuntu server and run the following commands.
 
 sudo wget -O install.sh https://raw.githubusercontent.com/mdelaney68/Demo/master/src/install.sh
+
 sudo chmod 775 install.sh
+
 sudo ./install.sh
-
-
 
 
