@@ -5,7 +5,7 @@ Requirments
 3. Root access ot Ununtu server
 
 
-To install application log into your Ubuntu server and run the following commands.
+To install application log into your Ubuntu server and run the following commands separately.
 
 sudo wget -O railo-4.2.1.008-pl0-linux-x64-installer.run http://www.getrailo.org/down.cfm?item=/railo/remote/download42/4.2.1.008/tomcat/linux/railo-4.2.1.008-pl0-linux-x64-installer.run&thankyou=true
 

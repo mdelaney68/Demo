@@ -19,6 +19,7 @@ sudo unzip -o Demo-master.zip  -d ./tmp
 sudo cp -r ./tmp/Demo-master/src/railoinstall.txt ./
 sudo cp -r ./tmp/Demo-master/src/uninstall.sh ./
 sudo chmod 775 uninstall.sh
+sudo chmod 775 railoinstall.txt
 
 echo "==================="
 echo "  Installing Railo "
