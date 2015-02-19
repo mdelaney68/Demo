@@ -12,4 +12,5 @@ sudo chmod 775 install.sh
 
 sudo ./install.sh
 
+ls
 
