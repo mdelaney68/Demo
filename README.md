@@ -13,7 +13,7 @@
 <br>
 <strong>To install application ssh login to your Ubuntu Server and run the following commands. The install script will download all necessary files and install the application and the railo server.</strong>
 <br>
-sudo wget -O install.sh https://raw.githubusercontent.com/mdelaney68/Demo/master/src/install.sh
+sudo wget -O install.sh https://raw.githubusercontent.com/DigiconCorp/Demo/master/src/install.sh
 <br>
 sudo chmod 775 install.sh
 <br>
