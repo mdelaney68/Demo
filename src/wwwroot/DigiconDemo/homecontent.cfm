@@ -1,4 +1,4 @@
-<cfcache action="servercache" timespan="#createtimespan(0,0,1,0)#"> 
+<cfcache action="servercache" timespan="#createtimespan(0,0,0,10)#"> 
 <h1>18F</h1>
 
 <p>

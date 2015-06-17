@@ -36,7 +36,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="javascript:void(0)" onclick="loadcontent('homecontent.cfm');">24 Hour Challange</a>
+          <a class="navbar-brand" href="javascript:void(0)" onclick="loadcontent('homecontent.cfm');">Home</a>
         </div>
         <div id="navbar" class="collapse navbar-collapse">
           <ul class="nav navbar-nav">
