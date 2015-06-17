@@ -2,7 +2,7 @@
 <h1>18F</h1>
 
 <p>
-Beloow is a an example of using the FBOpen  API that fetches data search of opportunities to work with the U.S. government. The curent search criteria is "software Development agile".</p>
+Below is a an example of using the FBOpen API to retrieve opportunities to work with the U.S. government. The curent search criteria is "software Development agile".</p>
 
 <cfhttp method="get" url="https://api.data.gov/gsa/fbopen/v0/opps?q=software+Development+agile&fq=&parent_only=&p=&naics=&data_source=&api_key=sZYzeySBCJ8LNRlgD352cCoxMF58MLYgYxWXQD9x" >
 <cfset getResult = deserializeJSON(cfhttp.FileContent)>
