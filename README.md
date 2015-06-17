@@ -1,3 +1,7 @@
+
+<strong>Demo URL:http://66.23.117.40/demo/</strong>
+
+
 #Demo install 
 <strong>Requirments</strong>
 <p>Below are a list of requirements that are neede in order to install and run the demo applicaion. </p>
